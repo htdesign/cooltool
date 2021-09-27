@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'select-arrow': "url('/img/arrow-down.svg')",
+        'select-arrow': "url('img/arrow-down.svg')",
       }
     },
   },
