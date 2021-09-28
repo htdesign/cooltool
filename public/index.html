@@ -52,13 +52,13 @@
     <div class="w-full bg-green-300 flex sm:px-4 justify-between items-center">
         <nav>
             <ul class="flex">
-                <li><a href="#" class="inline-block px-3 text-sm sm:text-base sm:px-4 py-4 bg-white">Timesheet</a></li>
-                <li><a href="#" class="inline-block px-3 text-sm sm:text-base sm:px-4 py-4 hover:bg-green-400">Tasks</a></li>
-                <li><a href="#" class="inline-block px-3 text-sm sm:text-base sm:px-4 py-4 hover:bg-green-400">Task Board</a></li>
-                <li><a href="#" class="inline-block px-3 text-sm sm:text-base sm:px-4 py-4 hover:bg-green-400">Preferences</a></li>
+                <li><a href="#" class="inline-block px-3 text-sm sm:text-base sm:px-4 py-2 bg-white">Timesheet</a></li>
+                <li><a href="#" class="inline-block px-3 text-sm sm:text-base sm:px-4 py-2 hover:bg-green-400">Tasks</a></li>
+                <li><a href="#" class="inline-block px-3 text-sm sm:text-base sm:px-4 py-2 hover:bg-green-400">Task Board</a></li>
+                <li><a href="#" class="inline-block px-3 text-sm sm:text-base sm:px-4 py-2 hover:bg-green-400">Preferences</a></li>
             </ul>
         </nav>
-        <a href="#" class="px-6 py-4 hover:bg-green-400 hidden sm:block">
+        <a href="#" class="px-6 py-2 hover:bg-green-400 hidden sm:block">
             Hide sidebar
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block ml-1" viewBox="0 0 20 20"
                 fill="currentColor">
@@ -73,7 +73,7 @@
         <div class="sm:w-9/12">
             <!-- NEW TASK -->
             <div class="p-4">
-                <p class="mb-8 text-gray-600 p-4">Timesheet for John Smith — Thursday, September 23rd 2021</p>
+                <p class="mb-8 text-gray-600 px-4 py-2">Timesheet for John Smith — Thursday, September 23rd 2021</p>
                 <div class="rounded border flex p-4 pt-6 items-center relative">
                     <span class="bg-white absolute px-2 -top-3 font-bold">Add Timeslot</span>
                     <div class="w-full flex flex-col xl:flex-row xl:space-x-4 space-y-4 xl:space-y-0">
@@ -211,6 +211,81 @@
                                                         </a>
                                                     </td>
                                                 </tr>
+                                                <tr>
+                                                    <td class="px-4 py-4 whitespace-nowrap">
+                                                        <div class="flex items-center">
+                                                            <div>
+                                                                <div class="text-sm font-medium text-gray-900">
+                                                                    Jane Cooper
+                                                                </div>
+                                                                <div class="text-sm text-gray-500">
+                                                                    jane.cooper@example.com
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-4 py-4 whitespace-nowrap">
+                                                        <div class="text-sm text-gray-900">This is a description</div>
+                                                    </td>
+                                                    <td class="px-4 py-4 whitespace-nowrap">
+                                                        <span
+                                                            class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                                            Active
+                                                        </span>
+                                                    </td>
+                                                    <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-500">
+                                                        Admin
+                                                    </td>
+                                                    <td
+                                                        class="px-4 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                                        <a href="#" class="text-gray-400 hover:text-gray-500">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                                                viewBox="0 0 20 20" fill="currentColor">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                                                                    clip-rule="evenodd" />
+                                                            </svg>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="px-4 py-4 whitespace-nowrap">
+                                                        <div class="flex items-center">
+                                                            <div>
+                                                                <div class="text-sm font-medium text-gray-900">
+                                                                    John Smith
+                                                                </div>
+                                                                <div class="text-sm text-gray-500">
+                                                                    jsmith@example.com
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="px-4 py-4 whitespace-nowrap">
+                                                        <div class="text-sm text-gray-900">This is a description</div>
+                                                    </td>
+                                                    <td class="px-4 py-4 whitespace-nowrap">
+                                                        <span
+                                                            class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-red-100 text-red-800">
+                                                            Done
+                                                        </span>
+                                                    </td>
+                                                    <td class="px-4 py-4 whitespace-nowrap text-sm text-gray-500">
+                                                        Admin
+                                                    </td>
+                                                    <td
+                                                        class="px-4 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                                        <a href="#" class="text-gray-400 hover:text-gray-500">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                                                viewBox="0 0 20 20" fill="currentColor">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                                                                    clip-rule="evenodd" />
+                                                            </svg>
+                                                        </a>
+                                                    </td>
+                                                </tr>
                                             </tbody>
                                         </table>
                                     </div>
@@ -227,9 +302,9 @@
         <!-- SIDEBAR -->
         <div class="sm:w-3/12">
             <div class="p-4">
-                <p class="mb-8 text-gray-600 p-4">Timesheet Details</p>
+                <p class="mb-8 text-gray-600  px-4 py-2">Timesheet Details</p>
                 <div class="rounded border flex p-4 pt-6 items-center relative">
-                    <span class="bg-white absolute px-2 -top-3 font-bold">Task</span>
+                    <span class="bg-white absolute px-2 -top-3 font-bold">Details</span>
                     <div class="w-full">
                         <table class="min-w-full divide-y divide-gray-200">
                             <tbody class="bg-white divide-y divide-gray-200">
